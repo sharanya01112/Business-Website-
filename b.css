@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8fafc;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: white;
+  align-items: center;
+}
+
+.logo {
+  color: #16a34a;
+}
+.logo span {
+  color: #0f172a;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.rating {
+  color: green;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #0f172a;
+}
+
+.desc {
+  color: #555;
+}
+
+.hero ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hero li {
+  margin: 10px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.primary {
+  background: #16a34a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.secondary {
+  margin-left: 10px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Hero Image */
+.hero-img img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+/* Services */
+.services {
+  text-align: center;
+  padding: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+}
